@@ -22,11 +22,11 @@ mod lib;
 fn main() {
     // Image
 
-    static ASPECT_RATIO: f64 = 16.0 / 9.0;
-    static IMAGE_WIDTH: u32 = 1920;
+    static ASPECT_RATIO: f64 = 21.0 / 9.0;
+    static IMAGE_WIDTH: u32 = 3440;
     static IMAGE_HEIGHT: u32 = (IMAGE_WIDTH as f64 / ASPECT_RATIO) as u32;
-    static SAMPLES_PER_PIXEL: u16 = 30;
-    static MAX_DEPTH: u8 = 4;
+    static SAMPLES_PER_PIXEL: u16 = 100;
+    static MAX_DEPTH: u8 = 5;
 
     // World
 
